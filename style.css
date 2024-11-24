@@ -1,0 +1,645 @@
+@charset "utf-8";
+.container{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+body{
+
+	padding: 0;
+	margin: auto;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'sans-serif;
+	text-align: center;
+	background-clip: white;
+}
+.arkaplan{
+	background-image:url("images/pexels-gustavo-fring-4173239.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 960px;
+}
+
+
+.tableOuther {
+	position: relative;
+	top: 10%;
+	left: 5%;
+	width: 25%;
+	height: 450px;
+	background-image:url("images/beyaz-renk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 15%;
+	padding: 5%;
+	padding-top: 5%;
+}
+input[type="text"],
+input[type="password"]{
+	width: 90%;
+	margin: 5px;
+	height: 50px;
+	background: white;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 25px;
+	color: gray;
+	
+}
+
+::placeholder{
+	font: 10px;
+	text-align: center;
+	
+}
+.sub2{
+	height: 40px;
+	width: 35%;
+	border: black solid 1px;
+	border-radius: 15px;
+	box-sizing: border-box;
+	font-size: 18px;
+	color:gray;
+	background:white;
+	font-weight: bolder;
+	curser:pointer;
+	float:left;
+	margin-top:-18.5px;
+	margin-left:1%;
+}
+.sub{
+	height: 40px;
+	width: 35%;
+	border: black solid 1px;
+	border-radius: 15px;
+	box-sizing: border-box;
+	font-size: 18px;
+	color:white;
+	background:#1dd1a1;
+	font-weight: bolder;
+	curser:pointer;
+	top:-15px;
+	float:left;
+	margin-left:14%;
+}
+
+.res1{
+	width: 200px;
+	height: 200px;
+	float: top; 
+	margin-bottom: 30px;
+}
+
+
+
+#giris{
+	background: #10ac84;
+}
+
+#giris:hover{background:#189775;}
+#uye:hover{background:#525251; color:white;}
+
+a{
+	font-size:18px;
+	color: 100,100,100;
+}
+a{
+	text-decoration:none;
+}
+
+
+
+
+@media screen and (max-width: 1370px){
+.container{
+width: 100%;
+height: auto;
+margin: 0 auto;
+}
+body{
+
+		padding: 0;
+		margin: auto;
+		font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'sans-serif;
+		text-align: center;
+		background-clip: white;
+}
+.arkaplan{
+		background-image:url("images/pexels-gustavo-fring-4173239.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 665px;
+	}
+
+
+.tableOuther {
+		position: relative;
+		top: 5%;
+		left: 10%;
+		width: 25%;
+		height: 420px;
+		background-image:url("images/beyaz-renk.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-radius: 15%;
+		padding: 2%;
+		padding-top: 1%;
+	}
+input[type="text"],
+input[type="password"]{
+		width: 80%;
+		margin: 3px;
+		height: 50px;
+		background: white;
+		border-width: 2px;
+		border-style: solid;
+		border-radius: 25px;
+		text-align: center;
+		font-size: 25px;
+		color: gray;
+
+	}
+
+	::placeholder{
+		font: 10px;
+		text-align: center;
+
+	}
+.sub2{
+		height: 40px;
+		width: 35%;
+		border: black solid 1px;
+		border-radius: 15px;
+		box-sizing: border-box;
+		font-size: 18px;
+		color:gray;
+		background:white;
+		font-weight: bolder;
+		curser:pointer;
+		margin-top:1px;
+	}
+.sub{
+		height: 40px;
+		width: 35%;
+		border: black solid 1px;
+		border-radius: 15px;
+		box-sizing: border-box;
+		font-size: 18px;
+		color:white;
+		background:#1dd1a1;
+		font-weight: bolder;
+		curser:pointer;
+		margin-top:19px;
+	}
+
+.res1{
+		width: 50%;
+		height: 170px;
+		float: top; 
+		margin-bottom: -20px;
+}
+
+
+
+#giris{
+		background: #10ac84;
+	}
+
+#giris:hover{background:#189775;}
+#uye:hover{background:#525251; color:white;}
+
+a{
+		font-size:18px;
+		color: 100,100,100;
+	}
+a{
+		text-decoration:none;
+}	
+}
+
+
+
+
+.menu{
+	border-bottom: 2px solid gray;
+	width: 91%;
+	height: 90px;
+	background:white;
+	float:top;
+	float: left;
+	left:9%;
+	padding-top: 18px;
+	padding-left: 0;	
+	position: absolute;	
+}
+.logo{
+	width: 10%;
+	height: 108px;
+	position: absolute;
+	float: left;
+	float: top;
+	left: 0;
+	background: white;
+	border-bottom: 2px gray solid;
+}
+.res3{
+	width: 58%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.icon1{
+	width:40%; 
+	height:70px;
+	margin-top: -15px;
+	margin-bottom: -20px;
+	position: relative;
+	cursor: pointer;
+}
+.mleft{	
+	position: relative;
+	width: 10%;
+	height: 50px;
+	float: left;
+	font-size:15px; 
+	margin-left: 25%;
+	margin-top: 17px;
+	text-align: center;
+	line-height: 2px;
+	border-radius: 15px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.mleft2{
+	width: 10%;
+	height: 60px;
+	margin-left:-3%;
+	margin-right:-1%;
+	float: left;
+	position: relative;
+	
+}
+
+.mmleft{	
+	position: relative;
+	width: 10%;
+	height: 50px;
+	float: left;
+	font-size:15px; 
+	margin-left: -3.5%;
+	margin-top: 2px;
+	text-align: center;
+	line-height: 2px;
+	border-radius: 15px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.mmleft2{
+	width: 5%;
+	height: 60px;
+	margin-left:-2.7%;
+	margin-top:-1.4%;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	position: relative;
+	
+}
+.mmmleft{	
+	position: relative;
+	width: 10%;
+	height: 50px;
+	float: left;
+	font-size:15px; 
+	margin-top: 2px;
+	text-align: center;
+	line-height: 2px;
+	margin-left:2%;
+	border-radius: 15px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.mmmleft2{
+	width: 5%;
+	height: 60px;
+	margin-left:-2.6%;
+	margin-top:-1.5%;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	position: relative;
+	
+}
+
+
+
+.icon2{
+	width:35%; 
+	height:40px;
+	position: relative;
+}
+.icon3{
+	width:30%; 
+	height:40px;
+	margin-top:-2.5px;
+	cursor: pointer;
+	position: relative;
+}
+.mmed{
+	position: relative;
+	width: 13%;
+	height: 50px;
+	float: left;
+	font-size:15px; 
+	margin-left:-9%;
+	text-align: center;
+	line-height: 2px;
+	cursor: pointer;
+	
+}
+
+
+
+.arkaplan2{
+	background: #F5F5F5;
+}
+.mright{
+	position: relative;
+	width: 10%;
+	height: 50px;
+	float: left;
+	margin-left:-6px;
+	font-size:15px; 
+	text-align: center;
+	line-height: 2px;
+	border-radius: 15px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+
+.menu h4{
+	font-size: 20px;
+	color:#333333;
+	float: left;
+	font-display: auto;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#hov h4:hover{
+	color: red;
+}
+.cik1{
+	position: relative;
+	width: 15%;
+	height: 50px;
+	float: right;
+	font-size:15px; 
+	text-align: center;
+	line-height: 2px;
+	border-radius: 15px;
+	margin-top: -8px;
+	cursor: pointer;
+}
+.ciksag{
+	width: 40%;
+	height: 50px;
+	float: left;
+	margin-right: 0;
+	position: relative;
+}
+.ciksol{
+	text-align: right;
+	width: 60%;
+	height: 50px;
+	float: left;
+	position: relative;
+}
+@media screen and (max-width:1400px){
+	.menu{
+	border-bottom: 2px solid gray;
+	width: 91%;
+	height: 62px;
+	background:white;
+	float:top;
+	float: left;
+	left:9%;
+	padding-left: 0;	
+	position: absolute;	
+}
+.logo{
+	width: 10%;
+	height: 80px;
+	position: absolute;
+	float: left;
+	float: top;
+	left: 0;
+	background: white;
+	border-bottom: 2px gray solid;
+}
+.res3{
+	width: 50%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.icon1{
+	width:40%; 
+	height:50px;
+	margin-top: -15px;
+	margin-bottom: -20px;
+	position: relative;
+	cursor: pointer;
+}
+.mleft{	
+	position: relative;
+	width: 10%;
+	height: 60px;
+	float: left;
+	font-size:15px; 
+	margin-left: 25%;
+	margin-top: 12px;
+	text-align: center;
+	line-height: 2px;
+	border-radius: 15px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.mleft2{
+	width: 10%;
+	height: 30px;
+	margin-left:-3%;
+	margin-top:-4px;
+	margin-right: -2%;
+	float: left;
+	position: relative;
+	
+}
+
+.mmleft{	
+	position: relative;
+	width: 10%;
+	height: 50px;
+	float: left;
+	font-size:15px; 
+	margin-left: -3%;
+	margin-top: -9px;
+	text-align: center;
+	line-height: 2px;
+	border-radius: 15px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.mmleft2{
+	width: 5%;
+	height: 40px;
+	margin-left:-2.6%;
+	margin-top:-2%;
+	text-align: center;
+	line-height: 20px;
+	float: left;
+	position: relative;
+	
+}
+.mmmleft{	
+	position: relative;
+	width: 10%;
+	height: 50px;
+	float: left;
+	font-size:15px; 
+	margin-left: 2%;
+	margin-top: -10px;
+	text-align: center;
+	line-height: 2px;
+	border-radius: 15px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+.mmmleft2{
+	width: 5%;
+	height: 60px;
+	margin-left:-3%;
+	margin-top:-2.4%;
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	position: relative;
+	
+}
+
+
+
+.icon2{
+	width:35%; 
+	height:30px;
+	position: relative;
+}
+.icon3{
+	width:30%; 
+	height:35px;
+	margin-top:-2.5px;
+	cursor: pointer;
+	position: relative;
+}
+.mmed{
+	position: relative;
+	width: 13%;
+	height: 50px;
+	float: left;
+	font-size:15px; 
+	margin-left:-9%;
+	text-align: center;
+	line-height: 2px;
+	cursor: pointer;
+	
+}
+
+
+
+.arkaplan2{
+	background: #F5F5F5;
+}
+.mright{
+	position: relative;
+	width: 10%;
+	height: 50px;
+	float: left;
+	margin-left:-6px;
+	font-size:15px; 
+	text-align: center;
+	line-height: 2px;
+	border-radius: 15px;
+	padding-bottom: 5px;
+	cursor: pointer;
+}
+
+.menu h4{
+	font-size: 15px;
+	color:#333333;
+	float: left;
+	font-display: auto;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#hov h4:hover{
+	color: red;
+}
+.cik1{
+	position: relative;
+	width: 15%;
+	height: 50px;
+	float: right;
+	font-size:15px; 
+	text-align: center;
+	line-height: 2px;
+	border-radius: 15px;
+	margin-top: -18px;
+	cursor: pointer;
+}
+.ciksag{
+	width: 40%;
+	height: 50px;
+	float: left;
+	margin-right: 0;
+	margin-top: -5px;
+	position: relative;
+}
+.ciksol{
+	text-align: right;
+	width: 60%;
+
+	height: 50px;
+	float: left;
+	position: relative;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
